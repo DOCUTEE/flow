@@ -5,12 +5,16 @@ using namespace std;
 #define MASK(i) (1LL << (i))
 const int inf = 1e18;
 
+int cal(int a, int b)
+{
+      return a + b;
+}
+
 void solve()
 {
       cin >> a >> b;
-      int res = a + b;
-      // calculate sum 2 numbers
-      cout << res << '\n';
+      cout << cal(a, b) << '\n';
+
 }
 signed main()
 {
