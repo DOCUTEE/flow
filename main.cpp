@@ -8,6 +8,9 @@ const int inf = 1e18;
 void solve()
 {
       cin >> a >> b;
+      int res = a + b;
+      // calculate sum 2 numbers
+      cout << res << '\n';
 }
 signed main()
 {
