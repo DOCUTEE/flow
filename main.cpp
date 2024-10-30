@@ -5,9 +5,15 @@ using namespace std;
 #define MASK(i) (1LL << (i))
 const int inf = 1e18;
 
+int cal(int a, int b)
+{
+      return a + b;
+}
+
 void solve()
 {
       cin >> a >> b;
+      cout << cal(a, b) << '\n';
 }
 signed main()
 {
