@@ -8,6 +8,8 @@ const int inf = 1e18;
 void solve()
 {
       cin >> a >> b;
+      int res = a + b;
+      cout << res << '\n';
 }
 signed main()
 {
