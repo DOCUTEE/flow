@@ -14,6 +14,7 @@ void solve()
 {
       cin >> a >> b;
       cout << cal(a, b) << '\n';
+
 }
 signed main()
 {
